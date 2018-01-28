@@ -1,11 +1,14 @@
-package com.example.manitch.myapplication;
+package com.example.manitch.myapplication.index;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.manitch.myapplication.advance.AdvanceActivity;
+import com.example.manitch.myapplication.basic.BasicActivity;
+import com.example.manitch.myapplication.R;
 
 
 public class MainActivity extends AppCompatActivity {

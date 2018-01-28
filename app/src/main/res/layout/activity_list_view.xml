@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.manitch.myapplication.advance.AdvanceActivity">
+    tools:context="com.example.manitch.myapplication.list_view.ListViewActivity">
 
 </android.support.constraint.ConstraintLayout>

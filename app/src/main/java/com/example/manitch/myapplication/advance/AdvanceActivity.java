@@ -1,7 +1,9 @@
-package com.example.manitch.myapplication;
+package com.example.manitch.myapplication.advance;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.manitch.myapplication.R;
 
 public class AdvanceActivity extends AppCompatActivity {
 

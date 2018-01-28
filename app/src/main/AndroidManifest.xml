@@ -9,15 +9,48 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".splash.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BasicActivity" />
-        <activity android:name=".AdvanceActivity"></activity>
+        <activity
+            android:name=".basic.BasicActivity"
+            android:label="@string/basic">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".index.MainActivity" />
+        </activity>
+        <activity
+            android:name=".advance.AdvanceActivity"
+            android:label="@string/advance">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".index.MainActivity" />
+        </activity>
+        <activity android:name=".index.MainActivity" />
+
+        <activity
+            android:name=".grid_view.GridViewActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".basic.BasicActivity" />
+        </activity>
+
+        <activity
+            android:name=".list_view.ListViewActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".basic.BasicActivity" />
+        </activity>
+        <activity
+            android:name=".tab_view.TabViewActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".index.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

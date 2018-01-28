@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">BSRU</string>
-    <string name="head_name">Hello BSRU</string>
+    <string name="basic">BASIC</string>
+    <string name="advance">ADVANCE</string>
 </resources>
